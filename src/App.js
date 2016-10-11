@@ -1,10 +1,15 @@
 import React from 'react';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import LandingPage from './components/LandingPage';
 
 const App = React.createClass({
   render: function () {
     return (
       <div>
-        <h1>Hello world!</h1>
+        <Header />
+        <LandingPage />
+        <Footer />
       </div>
     )
   }
