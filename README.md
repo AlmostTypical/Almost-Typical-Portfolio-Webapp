@@ -13,3 +13,4 @@ Future plans:
 - Implement axios calls for API servers I've helped make, so that you can check their status from the home page.
 - Go hogwild with the SASS and really create an awesome user experience.
 - Optimise for mobile users.
+- Properly test and lint each component, using Husky to force that as a part of the workflow.

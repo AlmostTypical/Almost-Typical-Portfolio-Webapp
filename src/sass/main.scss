@@ -1,3 +1,24 @@
-h1 {
-  color: blueviolet;
+@import 'colors';
+
+.container {
+  background-color: $black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: auto;
+}
+
+.mainTitle {
+  text-align: center;
+  position: relative;
+  color: $red;
+  padding-top: 20%;
+}
+
+.navbar {
+  list-style: none;
+  text-align: right;
+  margin-right: 20px;
 }
