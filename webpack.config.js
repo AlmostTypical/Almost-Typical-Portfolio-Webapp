@@ -1,9 +1,12 @@
+const Path = require('path');
+
 module.exports = {
   entry: './src/main.js',
   output: {
     path: './public/',
     filename: 'bundle.js'
   },
+  devtool: 'inline-source-map',
   module: {
     loaders: [
       {
@@ -13,6 +16,15 @@ module.exports = {
         query: {
           presets: ['es2015', 'react']
         }
+      },
+      {
+        test: /\.scss$/,
+        loaders: ['style', 'css', 'sass'],
+        exclude: Path.join(__dirname, './node_modules')
+      },
+      {
+        test: /\.css$/,
+        loaders: ['style', 'css']
       }
     ]
   }

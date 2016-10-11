@@ -1,6 +1,8 @@
 import React from 'react';
 import { BrowserRouter, Match, Link, Miss } from 'react-router'
 
+import './sass/main.scss';
+
 import Header from './components/Header';
 import Footer from './components/Footer';
 import LandingPage from './components/LandingPage';
