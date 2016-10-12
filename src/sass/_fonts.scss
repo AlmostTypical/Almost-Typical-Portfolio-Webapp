@@ -1,0 +1,9 @@
+@import 'mixins';
+@include font-face(VCR, "../fonts/VCR", null, null, ttf);
+
+$pixel-font: VCR;
+
+.mainTitle {
+  font-family: $pixel-font;
+  font-size: 25px;
+}

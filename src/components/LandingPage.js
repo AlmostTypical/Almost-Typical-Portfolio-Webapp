@@ -5,7 +5,7 @@ const App = React.createClass({
   render: function () {
     return (
       <div>
-        <Typewriter typing={0.7}>
+        <Typewriter typing={1}>
           <p className='mainTitle'>ALMOST TYPICAL PROGRAMMING</p>
         </Typewriter>
       </div>
